@@ -34,7 +34,7 @@ The goal is to analyze the effectiveness of different hashing techniques and dem
 - Login monitoring
 
 # 📂 Project Structure
-Project-/Password Security Analysis & Brute Force Attack Simulation
+Project-/Password Security Analysis & Brute Force Attack Simulation/
 │
 ├── password_cracking_lab/
 │   ├── sha256/
@@ -47,8 +47,8 @@ Project-/Password Security Analysis & Brute Force Attack Simulation
 │   ├── bcrypt_hash.py
 │
 ├── wordlists/
-│   └── rockyou.txt
-|   └── Wordslist.txt
+│   ├── rockyou.txt
+|   ├── Wordslist.txt
 │
 ├── reports/
 │   ├── offline_attack_results
