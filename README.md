@@ -34,35 +34,44 @@ The goal is to analyze the effectiveness of different hashing techniques and dem
 - Login monitoring
 
 # 📂 Project Structure
-Project-/Password Security Analysis & Brute Force Attack Simulation/
+```
+Password Security Analysis & Brute Force Attack Simulation/
 │
 ├── password_cracking_lab/
 │   ├── sha256/
+│   │   ├── hashes.txt
+│   │   ├── cracked.txt
+│   │
 │   ├── salted_sha256/
-│   ├── bcrypt/
+│   │   ├── salted_hashes.txt
+│   │   ├── cracked_salted.txt
+│   │
+│   └── bcrypt/
+│       ├── bcrypt_hashes.txt
+│       ├── cracked_bcrypt.txt
 │
 ├── scripts/
 │   ├── hash_passwords.py
 │   ├── salted_hash.py
-│   ├── bcrypt_hash.py
+│   └── bcrypt_hash.py
 │
 ├── wordlists/
 │   ├── rockyou.txt
-|   ├── Wordslist.txt
+│   └── Wordslist.txt
 │
 ├── reports/
-│   ├── offline_attack_results
-│   ├── online_attack_results
+│   ├── offline_attack_results.md
+│   └── online_attack_results.md
 │
 └── README.md
-
+```
 # 🔓 Part 1 — Offline Password Cracking
 - SHA-256 (Unsalted)
 - Fast hashing
 - Weak security
 - Easily cracked using dictionary attacks
 
-Tools Used
+# Tools Used
 
 - John the Ripper
 - rockyou.txt
