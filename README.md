@@ -71,6 +71,14 @@ Password Security Analysis & Brute Force Attack Simulation/
 - Weak security
 - Easily cracked using dictionary attacks
 
+
+
+https://github.com/user-attachments/assets/5b8fa398-732c-4de2-bc02-00f427859b01
+
+
+
+
+
 # Tools Used
 
 - John the Ripper
@@ -89,6 +97,11 @@ Password Security Analysis & Brute Force Attack Simulation/
 # 🌐 Part 2 — Online Brute Force Attack
 # Attack Method:
 Burp Suite Intruder was used to simulate repeated login attempts against the GroceryGo authentication system.
+
+
+https://github.com/user-attachments/assets/1549fd47-9278-45b9-9937-95058bbd92ca
+
+
 
 # Steps
 Capture login request
